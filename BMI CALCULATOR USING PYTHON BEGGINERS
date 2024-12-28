@@ -1,0 +1,12 @@
+height=float(input("no of heights in metres:"))
+weight=float(input("no of weights in kg's:"))
+BMI=weight/height**2
+print(BMI)
+if BMI<18.5:
+    print("underweight")
+elif 18.5<=BMI<24.9:
+    print("normalweight")
+elif 25<=BMI<29.9:
+    print("overweight")
+elif BMI>=30:
+   print("obesity")
